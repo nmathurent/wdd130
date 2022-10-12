@@ -1,3 +1,8 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +12,7 @@ nav a {
     text-align: center;
     color: #396E94;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-img {
@@ -33,6 +39,10 @@ main section {
 
 body {
     background-color: #fcfbfb; 
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -47,6 +57,10 @@ nav a:hover {
     background-color: #CCCCCC;
     color: #396E94;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -59,11 +73,18 @@ nav a:hover {
 
 .msg {
     background-color: #647984;
+    padding: 35px;
+}
+
+.mountains {
+    margin: 200px 0;
 }
 
 footer {
     background-color: #d9cbd0;
     color: #396E94;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -83,18 +104,56 @@ footer a:hover {
     background-color: white;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title, h4, h2 {
     color: #396E94;
+    font-family: 'Rock Salt', Helvetica, sans-serif;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 
 .msg h2 {
     color: white;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+}
+
 .icon, .logo {
     width: 80px;
 }
+
+.icon {
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}  
+
+.card-img {
+    border: 10px solid #8FCEEB;
+}
+
